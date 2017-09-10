@@ -48,7 +48,7 @@
     "revision":     "cm-14.1"
   },
   {
-    "remote":       "github",
+    "remote":       "aosp",
     "repository":   "platform/hardware/intel/common/wrs_omxil_core",
     "target_path":  "hardware/intel/common/wrs_omxil_core",
     "revision":     "nougat-mr2.3-release"
