@@ -10,6 +10,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/asus/Z008/device.mk)
 
+#Prebuilt kernel
+TARGET_PREBUILT_KERNEL:= device/asus/Z008/kernel
+
 PRODUCT_RUNTIMES := runtime_libart_default
 
 ## Device identifier. This must come after all inclusions
